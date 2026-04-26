@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const API_BASE_URL = "http://127.0.0.1:8000";
+  const API_BASE_URL = "https://vitasync-zmr-production.up.railway.app";
 
   const defaultHospitals = [
     {
