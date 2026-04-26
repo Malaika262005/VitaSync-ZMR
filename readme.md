@@ -1,4 +1,4 @@
-# 🏥 VitaSync – AI-Powered Healthcare Decision Support System
+# 🏥 VitaSync ZMR – AI-Powered Healthcare Decision Support System
 
 ## 🚀 Overview
 
