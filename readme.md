@@ -2,8 +2,21 @@
 
 ## 🚀 Overview
 
-VitaSync is an intelligent healthcare assistant designed to help users make informed medical decisions.
+VitaSync is an intelligent healthcare assistant designed to help users make informed medical decisions.  
 Instead of just listing hospitals, the system analyzes patient symptoms, evaluates hospital capabilities, and provides trust-based recommendations.
+
+---
+
+## 🌐 Live Demo
+
+👉 **Frontend (User Interface):**  
+https://malaika262005.github.io/VitaSync-ZMR/frontend/
+
+👉 **Backend API:**  
+https://vitasync-zmr-production.up.railway.app
+
+👉 **API Documentation (Swagger UI):**  
+https://vitasync-zmr-production.up.railway.app/docs
 
 ---
 
@@ -11,9 +24,9 @@ Instead of just listing hospitals, the system analyzes patient symptoms, evaluat
 
 Many patients struggle to:
 
-* Find reliable hospitals quickly
-* Understand which hospital suits their condition
-* Evaluate hospital capabilities and trustworthiness
+- Find reliable hospitals quickly  
+- Understand which hospital suits their condition  
+- Evaluate hospital capabilities and trustworthiness  
 
 VitaSync solves this by combining **AI guidance + hospital analysis + trust scoring**.
 
@@ -23,10 +36,10 @@ VitaSync solves this by combining **AI guidance + hospital analysis + trust scor
 
 VitaSync provides:
 
-* 🤖 AI-based symptom analysis
-* 🏥 Smart hospital search
-* 🛡 Trust score evaluation
-* 📊 Reports and analytics
+- 🤖 AI-based symptom analysis  
+- 🏥 Smart hospital search  
+- 🛡 Trust score evaluation  
+- 📊 Reports and analytics  
 
 ---
 
@@ -34,30 +47,29 @@ VitaSync provides:
 
 ### 🔍 1. Smart Hospital Search
 
-* Search hospitals based on medical needs
-* Displays:
-
-  * Capabilities (ICU, Oxygen, Emergency, Ventilator, etc.)
-  * Trust Score
-  * Recommendations
-* Interactive map integration
-* Click hospital → map focus
+- Search hospitals based on medical needs  
+- Displays:
+  - Capabilities (ICU, Oxygen, Emergency, Ventilator, etc.)  
+  - Trust Score  
+  - Recommendations  
+- Interactive map integration  
+- Click hospital → map focus  
 
 ---
 
 ### 🤖 2. AI Medical Assistant
 
-* Users describe symptoms in natural language
-* AI classifies:
+- Users describe symptoms in natural language  
+- AI classifies:
 
-  * 🟢 Mild → home care suggestions
-  * 🟡 Moderate → doctor recommended
-  * 🔴 Emergency → urgent hospital recommendation
-* Provides:
+  - 🟢 Mild → home care suggestions  
+  - 🟡 Moderate → doctor recommended  
+  - 🔴 Emergency → urgent hospital recommendation  
 
-  * Severity level
-  * Advice
-  * Recommended hospitals
+- Provides:
+  - Severity level  
+  - Advice  
+  - Recommended hospitals  
 
 ---
 
@@ -66,7 +78,7 @@ VitaSync provides:
 Hospitals are evaluated using a **4-factor scoring model**:
 
 | Factor              | Weight |
-| ------------------- | ------ |
+|---------------------|--------|
 | Critical Services   | 40%    |
 | Emergency Readiness | 25%    |
 | Data Completeness   | 20%    |
@@ -74,19 +86,19 @@ Hospitals are evaluated using a **4-factor scoring model**:
 
 Outputs:
 
-* Score (0–100)
-* Recommendation (Reliable / Verify / Risky)
-* Smart warnings for missing critical data
+- Score (0–100)  
+- Recommendation (Reliable / Verify / Risky)  
+- Smart warnings for missing critical data  
 
 ---
 
 ### 📊 4. Reports & Analytics
 
-* Total hospitals
-* ICU / Oxygen availability %
-* Doctor & Surgery availability
-* High-trust hospital percentage
-* Average trust score
+- Total hospitals  
+- ICU / Oxygen availability %  
+- Doctor & Surgery availability  
+- High-trust hospital percentage  
+- Average trust score  
 
 ---
 
@@ -103,39 +115,53 @@ These additions are used only to demonstrate how the system can scale and functi
 ## ⚙️ Tech Stack
 
 ### Frontend
-
-* HTML
-* CSS
-* JavaScript
-* Leaflet.js (Map integration)
+- HTML  
+- CSS  
+- JavaScript  
+- Leaflet.js (Map integration)  
 
 ### Backend
+- Python  
+- FastAPI  
+- Pandas  
 
-* Python
-* FastAPI
-* Pandas
+### Deployment
+- Frontend → GitHub Pages  
+- Backend → Railway  
 
 ---
 
 ## 🔗 API Endpoints
 
-| Endpoint      | Method | Description         |
-| ------------- | ------ | ------------------- |
-| `/search`     | GET    | Search hospitals    |
-| `/summary`    | GET    | Get analytics data  |
-| `/ai-advisor` | POST   | AI symptom analysis |
+| Endpoint        | Method | Description               |
+|----------------|--------|---------------------------|
+| `/`            | GET    | Health check              |
+| `/search`      | GET    | Search hospitals          |
+| `/summary`     | GET    | Analytics data            |
+| `/ai-advisor`  | POST   | AI symptom analysis       |
 
 ---
 
 ## 🧪 How It Works
 
-1. User enters symptoms or search query
-2. Backend analyzes hospital dataset
-3. AI determines severity of condition
-4. System ranks hospitals using trust score
-5. Results displayed with recommendations and map
+1. User enters symptoms or search query  
+2. Backend analyzes hospital dataset  
+3. AI determines severity of condition  
+4. System ranks hospitals using trust score  
+5. Results displayed with recommendations and map  
 
 ---
+
+## 🌐 Live Demo
+
+👉 **Frontend (User Interface):**  
+[Open Live App](https://malaika262005.github.io/VitaSync-ZMR/frontend/)
+
+👉 **Backend API:**  
+[Open Backend](https://vitasync-zmr-production.up.railway.app)
+
+👉 **API Documentation (Swagger UI):**  
+[Open API Docs](https://vitasync-zmr-production.up.railway.app/docs)
 
 ## ⚠️ Disclaimer
 
@@ -145,23 +171,22 @@ This system provides **general guidance only** and is not a substitute for profe
 
 ## 🌟 Future Improvements
 
-* Real-time hospital data integration
-* Government healthcare APIs
-* Live ICU/bed availability
-* Voice-based AI assistant
-* Mobile app version
+- Real-time hospital data integration  
+- Government healthcare APIs  
+- Live ICU/bed availability  
+- Voice-based AI assistant  
+- Mobile app version  
 
 ---
 
 ## 👥 Team
 
-**Team Leader:**
-Malaika Shahzadi
+**Team Leader:**  
+Malaika Shahzadi  
 
-**Team Members:**
-
-* Raiha
-* Zainab
+**Team Members:**  
+- Raiha  
+- Zainab  
 
 ---
 
